@@ -330,6 +330,13 @@ header p
     url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80');
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top:75px;
+}
+
+
+.contact-h1
+{
+    padding-top:20px;
 }
 
 
@@ -338,6 +345,9 @@ header p
     display: block;
     text-align: center;
     color:white;
+    overflow: visible;
+    background:black;
+    padding:20px;
 }
 
 form
@@ -357,6 +367,18 @@ form input
     width:100%;
     font-family: poppins;
     font-size:17px;
+}
+
+form textarea
+{
+    width: 100%;
+    padding:7px;
+    outline:none;
+    border:none;
+    font-family: poppins;
+    font-size:17px;
+    margin-bottom:20px;
+    height: 100px;
 }
 
 
@@ -380,6 +402,12 @@ form button:hover
 {
     background:white;
     color:black;
+}
+
+
+.long
+{
+    background:none;
 }
 /*RESPONSIVE*/
 
@@ -485,6 +513,12 @@ header p
     width:80%;;
 
 }
+form 
+{
+    width:90%;
+}
+
+
 }
 
 
