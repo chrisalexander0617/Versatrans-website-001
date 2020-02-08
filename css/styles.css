@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap');
+
+* 
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family:Poppins;
+}
+
+
+/* NAVIGATION */
+.navigation {
+    height: 70px;
+    background: rgba(13, 185, 171, 0.37);
+    position: absolute;
+    top:0;
+    width:100%;
+    z-index: 20;
+}
+.brand {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+.brand a, .brand a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+    position: relative;
+}
+nav ul li a, nav ul li a:visited {
+    display: block;
+    padding: 0 20px;
+    line-height: 70px;
+    background: rgba(43, 2, 66, 0.0);
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover, nav ul li a:visited:hover {
+    background: rgb(26, 26, 26);
+    color: #fff;
+}
+nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
+    padding-left: 4px;
+    content: ' ▾';
+}
+nav ul li ul li {
+    min-width: 190px;
+}
+nav ul li ul li a {
+    padding: 15px;
+    line-height: 20px;
+}
+.nav-dropdown {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background:black
+   
+}
+/* Mobile navigation */
+.nav-mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(13, 185, 171, 0.37);
+    height: 70px;
+    width: 70px;
+}
+
+
+
+
+
+header
+{
+    height:100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(12, 63, 71, 0.9) ),
+    url('https://images.unsplash.com/photo-1522124624696-7ea32eb9592c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+header h1 
+{
+    text-align: center;
+    font-size:90px;
+    text-transform: uppercase;
+    width:100%;
+    padding-top:230px;
+    color:white;
+    animation-duration: 3s;
+   
+}
+
+
+header p 
+{
+   color:white;
+    font-size:17px;
+    text-align: center;
+    width:50%;
+    margin:0 auto;
+    margin-bottom:50px;
+    animation-delay: .3s;
+}
+
+
+
+.button-container 
+{
+    text-align: center;
+    margin:0 auto;
+    width:70%;
+}
+
+.button-container button
+{
+    padding:10px;
+    border:solid white 3px;
+    font-weight: 400;
+    font-family: poppins;
+    font-size:17px;
+    width:300px;
+    outline:none;
+    cursor:pointer;
+    background:none;
+    color:white;
+    transition:.2s ease;
+    animation-delay: .7s;
+}
+
+
+.button-container button:hover
+{
+    padding:10px;
+    border:solid white 3px;
+    font-weight: 400;
+    font-family: poppins;
+    font-size:17px;
+    width:300px;
+    outline:none;
+    cursor:pointer;
+    background:white;
+    color:black;
+    
+}
+
+
+/*ANTARES CONTAINERS*/
+
+
+.antares-nav
+{
+    background:black;
+}
+
+
+.antares-header
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.9)),
+    url('https://cdn.eso.org/images/screen/eso1726b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.kepler-32-header
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.9)),
+    url('https://upload.wikimedia.org/wikipedia/commons/3/32/Kepler-20f_Planet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.saturn-header
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(82, 14, 14, 0.9)),
+    url('https://azbigmedia.com/wp-content/uploads/2019/04/saturn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-header
+{
+   background:none;
+}
+
+
+
+.antares-header h1
+{
+    font-size:100px;
+    animation-duration: 2;
+}
+
+.kepler-32-header h1
+{
+    font-size:100px;
+}
+
+.saturn-header h1
+{
+    font-size:100px;
+}
+
+.animate-h1-about
+{
+    font-size:75px;
+    margin-bottom:30px;
+}
+
+
+
+.antares-header p
+{
+    text-align:left;
+    width:80%;
+    line-height: 2.5;
+    height: 200;
+}
+
+.kepler-32-header p
+{
+    text-align:left;
+    width:80%;
+    line-height: 2.5;
+    height: 200;
+}
+
+
+.saturn-header p
+{
+    text-align:left;
+    width:80%;
+    line-height: 2.5;
+    height: 200;
+}
+
+
+.left-container
+{
+    float:left;
+    width:50%;
+    height: 100vh;
+    padding:20px;
+}
+
+.right-container
+{
+    padding:20px;
+    padding-top:200px;
+    float:right;
+    width:50%;
+    height: 100vh;
+    cursor: ns-resize;
+    overflow: scroll;
+   
+}
+
+.text-wrapper
+{
+    animation-duration: 2;
+    
+}
+
+
+.right-container .text-wrapper
+{
+    height: 400px;;
+    overflow: scroll;
+}
+
+
+
+.image-wrapper
+{
+    margin:0 auto;
+    width:100%;
+    display: block;
+    text-align: center;
+}
+
+.image-wrapper img
+{
+    height:250px;
+    width:400px;
+    margin:0 auto;
+    align-content: center;
+    text-align: center;
+    cursor:pointer;
+}
+
+
+
+.about-body
+{
+    background-image: url('https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1466&q=80');
+}
+
+
+.contact-body
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.9)),
+    url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.form-container
+{
+    display: block;
+    text-align: center;
+    color:white;
+}
+
+form
+{
+    width:40%;
+    margin:0 auto;
+    font-family: poppins;;
+}
+
+form input 
+{
+    margin-right:20px;
+    margin-bottom:20px;
+    padding:7px;
+    outline:none;
+    border:none;
+    width:100%;
+    font-family: poppins;
+    font-size:17px;
+}
+
+
+
+form button 
+{
+    border:solid white 3px;
+    font-size:17px;
+    font-family:Poppins;
+    border-radius:0px;
+    background:none;
+    width:200px;
+    color:white;
+    padding:12px;
+    transition:.2s ease;
+    cursor: pointer;
+
+}
+
+form button:hover
+{
+    background:white;
+    color:black;
+}
+/*RESPONSIVE*/
+
+
+
+
+
+@media only screen and (max-width: 799px) {
+    .nav-mobile {
+        display: block;
+   }
+    nav {
+        width: 100%;
+        padding: 70px 0 15px;
+   }
+    nav ul {
+        display: none;
+   }
+    nav ul li {
+        float: none;
+   }
+    nav ul li a {
+        padding: 15px;
+        line-height: 20px;
+   }
+    nav ul li ul li a {
+        padding-left: 30px;
+   }
+    .nav-dropdown {
+        position: static;
+        background:black;
+   }
+
+   nav ul li a, nav ul li a:visited {
+    display: block;
+    padding: 0 20px;
+    line-height: 70px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    text-decoration: none;
+}
+
+
+header h1 
+{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+
+header p 
+{
+    width:80%;
+}
+
+
+
+/*Antares Mobile*/
+.left-container
+{
+    width:100%;
+    height:auto;
+    display: inline-block;
+    padding:0;
+    height:500px;
+
+   
+}
+
+.right-container
+{
+    width:100%;
+    overflow:visible;
+    padding:0;
+    display: inline-block;
+    background-color: black !important;
+    height:auto;
+    padding-top:50px;
+
+}
+
+
+.right-container .text-wrapper
+{
+    height: 100%;
+    overflow: visible
+}
+
+.antares-header p
+{
+    width:80%;;
+
+}
+
+.keplar-32-header p
+{
+    width:80%;;
+
+}
+
+.saturn-header p
+{
+    width:80%;;
+
+}
+}
+
+
+@media screen and (min-width: 799px) {
+    .nav-list {
+        display: block !important;
+        background:rgb(0, 0, 0);
+   }
+
+}
+#nav-toggle {
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+#nav-toggle span:before {
+    top: -10px;
+}
+#nav-toggle span:after {
+    bottom: -10px;
+}
+#nav-toggle.active span {
+    background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+}
+#nav-toggle.active span:before {
+    transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+    transform: rotate(-45deg);
+}
+article {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
