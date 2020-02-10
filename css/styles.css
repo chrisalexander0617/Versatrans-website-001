@@ -381,6 +381,10 @@ form textarea
     height: 100px;
 }
 
+.black
+{
+    background:black;
+}
 
 
 form button 
@@ -451,11 +455,57 @@ form button:hover
 }
 
 
+.text-container
+{
+    margin: 0 auto;
+}
+
+.animate-button
+{
+    max-width: 100%;
+}
+
+
 header h1 
 {
     font-size:50px;
     margin-bottom:20px;
 }
+
+.antares-header h1
+{
+    font-size:50px;
+    animation-duration: 2;
+}
+
+
+.saturn-header h1
+{
+    font-size:50px;
+    animation-duration: 2;
+}
+
+
+.kepler-32-header h1
+{
+    font-size:50px;
+    animation-duration: 2;
+}
+
+
+.text-container
+{
+    max-width: 90%;
+    padding:5px
+}
+
+.confirm .text-container h1 
+{
+    font-size:20px !important ;
+    text-align: left; 
+}
+
+
 
 .animate-h1-about
 {
@@ -509,7 +559,7 @@ header p
 
 .antares-header p
 {
-    width:80%;;
+    width:80%;
 
 }
 
@@ -582,3 +632,32 @@ article {
     margin: 0 auto;
     padding: 10px;
 }
+
+
+header h1 
+{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.antares-header h1
+{
+    font-size:50px;
+    animation-duration: 2;
+}
+
+
+.saturn-header h1
+{
+    font-size:50px;
+    animation-duration: 2;
+}
+
+
+.kepler-32-header h1
+{
+    font-size:50px;
+    animation-duration: 2;
+}
+
+
