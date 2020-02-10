@@ -457,6 +457,17 @@ header h1
     margin-bottom:20px;
 }
 
+.animate-h1-about
+{
+    font-size:50px;
+    margin-bottom:30px;
+}
+
+.image-wrapper
+{
+    overflow: hidden;
+}
+
 
 header p 
 {
