@@ -413,6 +413,18 @@ form button:hover
 {
     background:none;
 }
+
+
+.image-box img
+{
+    transition:.2s ease
+}
+
+.image-box img:hover
+{
+    transform: scale(1.3);
+}
+
 /*RESPONSIVE*/
 
 
